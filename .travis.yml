@@ -24,6 +24,7 @@ before_deploy:
 - popd
 deploy:
   provider: releases
+  draft: true
   api_key: 9253c76921986cfe63a89715798c8ed05756ece8
   file: build/ios/iphoneos/app.ipa
   on:
