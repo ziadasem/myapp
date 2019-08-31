@@ -29,4 +29,4 @@ before_deploy:
   file: build/ios/iphoneos/app.ipa
   skip_cleanup: true #important or your built app would be deleted
   on:
-    repo: #your repo will be here
+    repo: #your repo will be 
